@@ -1,4 +1,4 @@
-package com.wang.customviewgroup;
+package com.wang.customviewgroup.custom;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -7,6 +7,8 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.wang.customviewgroup.R;
 
 /**
  * Created by Administrator on 2017/6/22.

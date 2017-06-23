@@ -1,23 +1,16 @@
-package com.wang.customviewgroup;
+package com.wang.customviewgroup.activity;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 
 import com.bumptech.glide.Glide;
+import com.wang.customviewgroup.custom.CustomGroup;
+import com.wang.customviewgroup.R;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import de.hdodenhof.circleimageview.CircleImageView;
-
-public class MainActivity extends AppCompatActivity {
+public class CustomGroupActivity extends AppCompatActivity {
     CustomGroup customGroup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

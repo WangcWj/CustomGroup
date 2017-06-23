@@ -6,11 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="10dp"
-    tools:context="com.wang.customviewgroup.MainActivity">
-   <com.wang.customviewgroup.CustomGroup
+    tools:context="com.wang.customviewgroup.activity.CustomGroupActivity">
+   <com.wang.customviewgroup.custom.CustomGroup
        android:id="@+id/customGroup"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        app:scaleWidth="10dp"
-       ></com.wang.customviewgroup.CustomGroup>
+       ></com.wang.customviewgroup.custom.CustomGroup>
 </RelativeLayout>
