@@ -3,6 +3,7 @@ package com.wang.customviewgroup;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,31 +40,32 @@ public class CustomGroup extends ViewGroup {
         int heightMode = MeasureSpec.getMode(heightMeasureSpec);
         int parentWidth = MeasureSpec.getSize(widthMeasureSpec);
         int parentHeight = MeasureSpec.getSize(heightMeasureSpec);
+
          //子view排成一行的宽度
-         int width = 0;
+        int width = 0;
         //子view排成一行的高度
-         int height = 0;
+        int height = 0;
         int rawHeight =0;
         int rawWidth = 0;
          //有几个子view
-         int count = getChildCount();
+        int count = getChildCount();
         //记录一行的view数量
-         int index = 0;
+        int index = 0;
         for (int i = 0; i <count ; i++) {
             View childAt = getChildAt(i);
             if(childAt.getVisibility() == GONE){
                 if(index < count-1) {
                     width = Math.max(width, rawWidth);
                     height += rawHeight;
-                    continue;
                 }
+                continue;
             }
-            measureChild(childAt,widthMeasureSpec,heightMeasureSpec);
+            measureChildWithMargins(childAt,widthMeasureSpec,0,heightMeasureSpec,0);
             MarginLayoutParams lp  = (MarginLayoutParams) childAt.getLayoutParams();
             int childWidth = lp.leftMargin +lp.rightMargin+childAt.getMeasuredWidth();
             int childHeight = lp.topMargin + lp.bottomMargin + childAt.getMeasuredHeight();
             //到下一个组件的时候做出判断,还要减去最后一个View折叠的部分
-            if(rawWidth+childWidth-(index >0 ? scaleWidth : 0) < parentWidth - getPaddingLeft()-getPaddingRight()){
+            if(rawWidth+childWidth-(index >0 ? scaleWidth : 0) > parentWidth - getPaddingLeft()-getPaddingRight()){
                 //换行
                 width = Math.max(width,rawWidth);
                 height += rawHeight;
@@ -86,8 +88,8 @@ public class CustomGroup extends ViewGroup {
             index++;
         }
         setMeasuredDimension(
-                widthMode == MeasureSpec.EXACTLY ? widthMeasureSpec : width+getPaddingLeft()+getPaddingRight(),
-                heightMode == MeasureSpec.EXACTLY ? heightMeasureSpec :height+getPaddingLeft()+getPaddingRight()
+                widthMode == MeasureSpec.EXACTLY ? parentWidth : width + getPaddingLeft() + getPaddingRight(),
+                heightMode == MeasureSpec.EXACTLY ? parentHeight : height + getPaddingTop() + getPaddingBottom()
         );
     }
 
