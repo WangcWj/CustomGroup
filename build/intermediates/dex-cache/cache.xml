@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.0_dbebf04beecf35f1ebfb4ca35828b92a8e9e52ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.0_6192b255ddc8aac96a896fe8f388f00a8729a510.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.0_0a41d45e2ba191f0a2e30cfd70c7dc6ccac31ac7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.0_5be2b37344a77f20a19ffa7c4e42312f8249619c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.0_1878de73fa95b43e8c13a96f8a7c471df3970e94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidWork\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.0_6dfc31a250de91c8d96749f30334ef203b00981b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.0_02fde63e6adfe5a432c7fe3b51f5d76416eade69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\pre-dexed\debug\glide-3.7.0_1f3ddf859a86296da03fddcf50d19f29d652df81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.0_ce84ca53215f44737286971333447ff5948cbcd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.0_71ee61c2c97016999b0204ccc12ed7dd4b553c6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.0_bb39a086e790ab18d6997924328f63fab8ee6102.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="D:\AndroidWorkSpace\CustomViewGroup\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_fd814db87e3ec7905d9bed5ace030bbec1ad113e.jar" />
+    </item>
+
+</items>
