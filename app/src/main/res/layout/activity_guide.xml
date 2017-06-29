@@ -25,4 +25,14 @@
         android:text="自定义ImageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+  <Button
+      android:id="@+id/customMoveView"
+      android:text="跟随手指移动"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <Button
+      android:id="@+id/customRingView"
+      android:text="圆环进度"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
 </LinearLayout>

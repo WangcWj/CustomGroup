@@ -3,16 +3,30 @@
     <declare-styleable name="CustomRroup">
        <attr name="scaleWidth" format="dimension"></attr>
     </declare-styleable>
+    <!--自定义TextView-->
     <declare-styleable name="CustomTextView">
         <attr name="textSize" format="dimension"></attr>
         <attr name="text" format="string"></attr>
         <attr name="textColor" format="color"></attr>
     </declare-styleable>
+    <!--自定义图文混排-->
     <declare-styleable name="CustomImageView">
         <attr name="titleText" format="string"/>
         <attr name="titleTextSize" format="dimension"/>
         <attr name="titleTextColor" format="color"/>
         <attr name="image"  format="reference"/>
         <attr name="imageScaleType" format="integer" />
+    </declare-styleable>
+<!--自定义圆环进度-->
+    <attr name="firstColor" format="color" />
+    <attr name="secondColor" format="color" />
+    <attr name="circleWidth" format="dimension" />
+    <attr name="speed" format="integer" />
+
+    <declare-styleable name="CustomProgressBar">
+        <attr name="firstColor" />
+        <attr name="secondColor" />
+        <attr name="circleWidth" />
+        <attr name="speed" />
     </declare-styleable>
 </resources>

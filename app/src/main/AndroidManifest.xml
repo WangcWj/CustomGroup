@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.CustomGroupActivity"></activity>
+        <activity android:name=".activity.CustomGroupActivity" />
         <activity android:name=".activity.CustomTextViewActivity" />
         <activity android:name=".activity.GuideActivity">
             <intent-filter>
@@ -19,7 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.CustomImageActivity"></activity>
+        <activity android:name=".activity.CustomImageActivity" />
+        <activity android:name=".activity.MoveActivity" />
+        <activity android:name=".activity.RingProgressActivity"></activity>
     </application>
 
 </manifest>

@@ -9,7 +9,7 @@ import android.widget.Button;
 import com.wang.customviewgroup.R;
 
 public class GuideActivity extends AppCompatActivity implements View.OnClickListener{
-   Button textview,customViewGroup,customImageView;
+   Button textview,customViewGroup,customImageView,customMoveView,customRingView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,9 +17,13 @@ public class GuideActivity extends AppCompatActivity implements View.OnClickList
         textview = (Button) findViewById(R.id.customTextView);
         customViewGroup = (Button) findViewById(R.id.customViewGroup);
         customImageView = (Button) findViewById(R.id.customImageView);
+        customMoveView = (Button) findViewById(R.id.customMoveView);
+        customRingView = (Button) findViewById(R.id.customRingView);
         textview.setOnClickListener(this);
         customViewGroup.setOnClickListener(this);
         customImageView.setOnClickListener(this);
+        customMoveView.setOnClickListener(this);
+        customRingView.setOnClickListener(this);
     }
 
     @Override
@@ -36,6 +40,14 @@ public class GuideActivity extends AppCompatActivity implements View.OnClickList
          case R.id.customImageView:
              Intent intent3 =new Intent(this,CustomImageActivity.class);
              startActivity(intent3);
+             break;
+         case R.id.customMoveView:
+             Intent intent4 =new Intent(this,MoveActivity.class);
+             startActivity(intent4);
+             break;
+         case R.id.customRingView:
+             Intent intent5 =new Intent(this,RingProgressActivity.class);
+             startActivity(intent5);
              break;
      }
     }

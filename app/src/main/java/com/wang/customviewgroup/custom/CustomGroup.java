@@ -82,7 +82,7 @@ public class CustomGroup extends ViewGroup {
                     rawWidth -= scaleWidth;
                 }
             }
-            //最后一个不会还没计算
+            //最后一个还没计算
             if(i == count -1){
                 width = Math.max(rawWidth,width);
                 height +=rawHeight;
@@ -97,6 +97,7 @@ public class CustomGroup extends ViewGroup {
 
     @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
+        Log.e("CHAO", "onLayout: "+scaleWidth );
         int count = getChildCount();
         //父view的总宽度
         int viewWidth = getWidth() -getPaddingRight()-getPaddingLeft();

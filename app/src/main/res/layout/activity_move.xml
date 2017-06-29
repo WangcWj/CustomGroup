@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_move"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wang.customviewgroup.activity.MoveActivity">
+ <com.wang.customviewgroup.custom.ImageMoveView
+     android:src="@mipmap/timg"
+     android:layout_width="50dp"
+     android:scaleType="centerCrop"
+     android:layout_height="50dp" />
+ <com.wang.customviewgroup.custom.TextMoveView
+     android:text="我是美女"
+     android:layout_centerInParent="true"
+     android:background="#00ff00"
+     android:gravity="center"
+     android:layout_width="wrap_content"
+     android:layout_height="30dp" />
+</RelativeLayout>
